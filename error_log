@@ -1,0 +1,2 @@
+[23-Nov-2020 02:13:47 America/Chicago] PHP Fatal error:  Cannot redeclare Content::delete_Category() in /home2/ikeentqp/eduxondeve.xyz/application/controllers/Adminpanel/Content.php on line 2119
+[23-Nov-2020 02:14:29 America/Chicago] PHP Fatal error:  Cannot redeclare Content::delete_Category() in /home2/ikeentqp/eduxondeve.xyz/application/controllers/Adminpanel/Content.php on line 2119
