@@ -1,0 +1,18 @@
+[24-Dec-2020 09:30:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/m9ncb2l0071d/public_html/chetan/ckfinder/config.php:69
+Stack trace:
+#0 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Config.php(60): require()
+#1 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(92): CKSource\CKFinder\Config->__construct(Array)
+#2 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}(Object(CKSource\CKFinder\CKFinder))
+#3 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(191): Pimple\Container->offsetGet('config')
+#4 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/connector.php(18): CKSource\CKFinder\CKFinder->__construct('/home/m9ncb2l00...')
+#5 {main}
+  thrown in /home/m9ncb2l0071d/public_html/chetan/ckfinder/config.php on line 69
+[24-Dec-2020 09:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/m9ncb2l0071d/public_html/chetan/ckfinder/config.php:69
+Stack trace:
+#0 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Config.php(60): require()
+#1 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(92): CKSource\CKFinder\Config->__construct(Array)
+#2 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}(Object(CKSource\CKFinder\CKFinder))
+#3 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(191): Pimple\Container->offsetGet('config')
+#4 /home/m9ncb2l0071d/public_html/chetan/ckfinder/core/connector/php/connector.php(18): CKSource\CKFinder\CKFinder->__construct('/home/m9ncb2l00...')
+#5 {main}
+  thrown in /home/m9ncb2l0071d/public_html/chetan/ckfinder/config.php on line 69
